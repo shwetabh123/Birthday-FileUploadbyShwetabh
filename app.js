@@ -9,8 +9,8 @@ var app = express();
 var addressRouter = require('./routes/address');
 var uploadfileRouter = require('./routes/upload-file');
 //adding middleware- cors
-//app.use(cors());
-app.use(cors({origin: 'http://localhost:4200'}));
+app.use(cors());
+//app.use(cors({origin: 'http://localhost:4200'}));
 
 app.use(bodyparser.json()); 
 app.use(express.static(path.join(__dirname, 'public')));
