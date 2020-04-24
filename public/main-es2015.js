@@ -729,7 +729,7 @@ class ImageComponent {
             this.selectedImage = event.target.files[0];
         }
         else {
-            this.imgSrc = '/assets/img/birthday.jpg';
+            this.imgSrc = '/assets/img/upload.jpg';
             this.selectedImage = null;
         }
     }
