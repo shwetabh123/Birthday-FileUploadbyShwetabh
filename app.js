@@ -45,12 +45,12 @@ app.use('/api', uploadfileRouter);
 if (process.env.NODE_ENV==='production'){
 
 
-     app.use(express.static(__dirname+'/dist/'));
+     app.use(express.static(path.join(__dirname,'public')));
 
 
      app.get('*',(req,res)=>{
 
-    res.sendFile(path.join(__dirname,'/dist/index.html'));
+    res.sendFile(path.join(__dirname,'public/index.html'));
 
 
      });
@@ -63,7 +63,10 @@ if (process.env.NODE_ENV==='production'){
 
 
 //ON HEROKU
-const port = process.env.PORT || config.httpPort;
+//const port = process.env.PORT || config.httpPort;
+const port = process.env.PORT || 4112;
+
+
 app.listen(port, function () {
      console.log('server running on port:' + port);
 });
