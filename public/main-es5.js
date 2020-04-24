@@ -1477,7 +1477,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             imageUrl: '',
             category: 'Animal'
           });
-          this.imgSrc = '/assets/img/birthday.jpg';
+          this.imgSrc = '/assets/img/upload.jpg';
           this.selectedImage = null;
           this.isSubmitted = false;
         }

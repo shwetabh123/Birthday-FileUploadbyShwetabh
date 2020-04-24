@@ -757,7 +757,7 @@ class ImageComponent {
             imageUrl: '',
             category: 'Animal'
         });
-        this.imgSrc = '/assets/img/birthday.jpg';
+        this.imgSrc = '/assets/img/upload.jpg';
         this.selectedImage = null;
         this.isSubmitted = false;
     }
