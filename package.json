@@ -1,0 +1,35 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "a simple mean applicaion",
+  "main": "app.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "ng build",
+    "postinstall": "ng build --aot --prod"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "@angular/cli": "^9.1.1",
+    "@angular/fire": "^6.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^7.14.1",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "node-localstorage": "^2.1.6",
+    "nodemon": "^2.0.3",
+    "rxjs-compat": "^6.5.5"
+  },
+  "engines": {
+    "node": "~12.16.1",
+    "npm": "~6.14.4"
+  }
+
+
+}
