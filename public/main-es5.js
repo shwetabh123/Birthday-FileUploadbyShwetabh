@@ -1500,7 +1500,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-image"]],
       decls: 29,
       vars: 4,
-      consts: [[1, "card", 2, "width", "80rem"], [1, "ard-body"], [3, "formGroup", "submit"], ["text-center", ""], ["width", "250px", "height", "250px", 3, "src", "click"], [1, "form-group"], [2, "font-size", "15px"], ["type", "file", "accept", "image/*", "formControlName", "imageUrl", 1, "form-control", 3, "change"], ["fileUploader", ""], ["class", "text-danger", 4, "ngIf"], ["formControlName", "caption", "placeholder", "Caption", 1, "form-control"], ["formControlName", "category", 1, "form-control"], ["value", "Animal"], ["value", "Vehicle"], ["value", "Bird"], [1, "form-row"], [1, "form-group", "col-md-6"], ["routerLink", "/image/list", 1, "btn", "btn-primary", "btn-block", "float-right"], ["type", "submit", 1, "btn", "btn-success", "btn-block", "float-right"], [1, "text-danger"]],
+      consts: [[1, "card", 2, "width", "60rem"], [1, "ard-body"], [3, "formGroup", "submit"], ["text-center", ""], ["width", "250px", "height", "250px", 3, "src", "click"], [1, "form-group"], [2, "font-size", "15px"], ["type", "file", "accept", "image/*", "formControlName", "imageUrl", 1, "form-control", 3, "change"], ["fileUploader", ""], ["class", "text-danger", 4, "ngIf"], ["formControlName", "caption", "placeholder", "Caption", 1, "form-control"], ["formControlName", "category", 1, "form-control"], ["value", "Animal"], ["value", "Vehicle"], ["value", "Bird"], [1, "form-row"], [1, "form-group", "col-md-6"], ["routerLink", "/image/list", 1, "btn", "btn-primary", "btn-block", "float-right"], ["type", "submit", 1, "btn", "btn-success", "btn-block", "float-right"], [1, "text-danger"]],
       template: function ImageComponent_Template(rf, ctx) {
         if (rf & 1) {
           var _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
@@ -1723,7 +1723,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-images"]],
       decls: 13,
       vars: 0,
-      consts: [[1, "row", 2, "width", "120rem"], [1, "col-md-8", "offset-md-2", 2, "width", "120rem"], [1, "blockquote"], [1, "mb-0", "h3", "display-4", 2, "background-color", "pink"], [1, "blockquote-footer", 2, "background-color", "pink"], ["title", "Source Title"]],
+      consts: [[1, "row", 2, "width", "90rem"], [1, "col-md-8", "offset-md-2", 2, "width", "80rem"], [1, "blockquote"], [1, "mb-0", "h3", "display-4", 2, "background-color", "pink"], [1, "blockquote-footer", 2, "background-color", "pink"], ["title", "Source Title"]],
       template: function ImagesComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
