@@ -1094,15 +1094,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/router */
     "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
-    function ImageListComponent_table_0_tr_1_div_2_Template(rf, ctx) {
+    function ImageListComponent_table_1_tr_1_div_2_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 7);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 8);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 9);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Insert New Image");
 
@@ -1114,13 +1114,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ImageListComponent_table_0_tr_1_div_3_Template(rf, ctx) {
+    function ImageListComponent_table_1_tr_1_div_3_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 10);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
 
@@ -1144,15 +1144,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ImageListComponent_table_0_tr_1_td_4_Template(rf, ctx) {
+    function ImageListComponent_table_1_tr_1_td_4_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 10);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
@@ -1178,15 +1178,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ImageListComponent_table_0_tr_1_td_5_Template(rf, ctx) {
+    function ImageListComponent_table_1_tr_1_td_5_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 10);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
@@ -1212,21 +1212,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ImageListComponent_table_0_tr_1_Template(rf, ctx) {
+    function ImageListComponent_table_1_tr_1_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "td");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ImageListComponent_table_0_tr_1_div_2_Template, 5, 0, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ImageListComponent_table_1_tr_1_div_2_Template, 5, 0, "div", 4);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ImageListComponent_table_0_tr_1_div_3_Template, 4, 2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ImageListComponent_table_1_tr_1_div_3_Template, 4, 2, "div", 4);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ImageListComponent_table_0_tr_1_td_4_Template, 5, 2, "td", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ImageListComponent_table_1_tr_1_td_4_Template, 5, 2, "td", 5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ImageListComponent_table_0_tr_1_td_5_Template, 5, 2, "td", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ImageListComponent_table_1_tr_1_td_5_Template, 5, 2, "td", 5);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -1254,11 +1254,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ImageListComponent_table_0_Template(rf, ctx) {
+    function ImageListComponent_table_1_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "table");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "table", 2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ImageListComponent_table_0_tr_1_Template, 6, 4, "tr", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ImageListComponent_table_1_tr_1_Template, 6, 4, "tr", 3);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -1303,15 +1303,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     ImageListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: ImageListComponent,
       selectors: [["app-image-list"]],
-      decls: 1,
+      decls: 2,
       vars: 1,
-      consts: [[4, "ngIf"], [4, "ngFor", "ngForOf"], ["class", "imagebox", 4, "ngIf"], [1, "imagebox"], ["routerLink", "/image/upload"], ["src", "https://d1eiwurxtmwbgy.cloudfront.net/images/icons/uoi.svg", 1, "img-fluid"], [1, "imagebox-desc", 2, "color", "blueviolet", "font-size", "250%"], [1, "img-fluid", 3, "src"], [1, "imagebox-desc"]],
+      consts: [[1, "row", 2, "width", "90rem"], ["style", "width:90rem", 4, "ngIf"], [2, "width", "90rem"], [4, "ngFor", "ngForOf"], ["class", "imagebox", 4, "ngIf"], [4, "ngIf"], [1, "imagebox"], ["routerLink", "/image/upload"], ["src", "https://d1eiwurxtmwbgy.cloudfront.net/images/icons/uoi.svg", 1, "img-fluid"], [1, "imagebox-desc", 2, "color", "blueviolet", "font-size", "250%"], [1, "img-fluid", 3, "src"], [1, "imagebox-desc"]],
       template: function ImageListComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ImageListComponent_table_0_Template, 2, 1, "table", 0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ImageListComponent_table_1_Template, 2, 1, "table", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
 
         if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.imageList);
         }
       },
@@ -1510,7 +1516,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-image"]],
       decls: 29,
       vars: 4,
-      consts: [[1, "card", 2, "width", "60rem"], [1, "ard-body"], [3, "formGroup", "submit"], ["text-center", ""], ["width", "250px", "height", "250px", 3, "src", "click"], [1, "form-group"], [2, "font-size", "15px"], ["type", "file", "accept", "image/*", "formControlName", "imageUrl", 1, "form-control", 3, "change"], ["fileUploader", ""], ["class", "text-danger", 4, "ngIf"], ["formControlName", "caption", "placeholder", "Caption", 1, "form-control"], ["formControlName", "category", 1, "form-control"], ["value", "Animal"], ["value", "Vehicle"], ["value", "Bird"], [1, "form-row"], [1, "form-group", "col-md-6"], ["routerLink", "/image/list", 1, "btn", "btn-primary", "btn-block", "float-right"], ["type", "submit", 1, "btn", "btn-success", "btn-block", "float-right"], [1, "text-danger"]],
+      consts: [[1, "card", 2, "width", "80rem"], [1, "ard-body"], [3, "formGroup", "submit"], ["text-center", ""], ["width", "250px", "height", "250px", 3, "src", "click"], [1, "form-group"], [2, "font-size", "15px"], ["type", "file", "accept", "image/*", "formControlName", "imageUrl", 1, "form-control", 3, "change"], ["fileUploader", ""], ["class", "text-danger", 4, "ngIf"], ["formControlName", "caption", "placeholder", "Caption", 1, "form-control"], ["formControlName", "category", 1, "form-control"], ["value", "Animal"], ["value", "Vehicle"], ["value", "Bird"], [1, "form-row"], [1, "form-group", "col-md-6"], ["routerLink", "/image/list", 1, "btn", "btn-primary", "btn-block", "float-right"], ["type", "submit", 1, "btn", "btn-success", "btn-block", "float-right"], [1, "text-danger"]],
       template: function ImageComponent_Template(rf, ctx) {
         if (rf & 1) {
           var _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
@@ -1733,7 +1739,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-images"]],
       decls: 13,
       vars: 0,
-      consts: [[1, "row", 2, "width", "90rem"], [1, "col-md-8", "offset-md-2", 2, "width", "80rem"], [1, "blockquote"], [1, "mb-0", "h3", "display-4", 2, "background-color", "pink"], [1, "blockquote-footer", 2, "background-color", "pink"], ["title", "Source Title"]],
+      consts: [[1, "row", 2, "width", "120rem"], [1, "col-md-8", "offset-md-2", 2, "width", "120rem"], [1, "blockquote"], [1, "mb-0", "h3", "display-4", 2, "background-color", "pink"], [1, "blockquote-footer", 2, "background-color", "pink"], ["title", "Source Title"]],
       template: function ImagesComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
