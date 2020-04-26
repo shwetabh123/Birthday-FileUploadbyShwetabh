@@ -2040,7 +2040,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ContactService, [{
         key: "getAddress",
         value: function getAddress() {
-          return this.http.get('http://localhost:4112/api/getAddress').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
+          //return this.http.get('http://localhost:4112/api/getAddress').pipe(map(res => res.json()));
+          return this.http.get('api/getAddress').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
             return res.json();
           }));
         } //earlier working
@@ -2056,17 +2057,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "postAddress",
         value: function postAddress(emp) {
-          return this.http.post('http://localhost:4112/api/getAddress', emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
+          //return this.http.post('http://localhost:4112/api/getAddress', emp).pipe(map(res => res.json()));
+          return this.http.post('api/getAddress', emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
             return res.json();
-          })); // return this.http.post('http://localhost:4112/api/getAddress', emp);
+          }));
         } //old
         //delete address
 
       }, {
         key: "deleteAddress",
         value: function deleteAddress(id) {
-          return this.http["delete"]('http://localhost:4112/api/getAddress/' + id) // return this.http.delete('api/getAddress/' + id)
-          .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
+          //  return this.http.delete('http://localhost:4112/api/getAddress/' + id).pipe(map(res => res.json()));
+          return this.http["delete"]('api/getAddress/' + id).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
             return res.json();
           }));
         } // //edit address
@@ -2075,9 +2077,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "putAddress",
         value: function putAddress(emp) {
-          return this.http.put('http://localhost:4112/api/updateAddress' + "/".concat(emp._id), emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
+          // return this.http.put('http://localhost:4112/api/updateAddress' + `/${emp._id}`,emp).pipe(map(res => res.json()));
+          return this.http.put('api/updateAddress' + "/".concat(emp._id), emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
             return res.json();
-          })); //  return this.http.put('api/getAddress/' + `/${emp._id}`, emp);
+          }));
         }
       }]);
 

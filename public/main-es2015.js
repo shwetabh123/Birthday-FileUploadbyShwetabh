@@ -1037,7 +1037,8 @@ class ContactService {
     //   return this.http.get('api/getAddress').pipe(map(res => res.json()));
     // }
     getAddress() {
-        return this.http.get('http://localhost:4112/api/getAddress').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
+        //return this.http.get('http://localhost:4112/api/getAddress').pipe(map(res => res.json()));
+        return this.http.get('api/getAddress').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
     }
     //earlier working
     // //add address method
@@ -1049,21 +1050,20 @@ class ContactService {
     // }
     //added newly
     postAddress(emp) {
-        return this.http.post('http://localhost:4112/api/getAddress', emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
-        // return this.http.post('http://localhost:4112/api/getAddress', emp);
+        //return this.http.post('http://localhost:4112/api/getAddress', emp).pipe(map(res => res.json()));
+        return this.http.post('api/getAddress', emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
     }
     //old
     //delete address
     deleteAddress(id) {
-        return this.http.delete('http://localhost:4112/api/getAddress/' + id)
-            // return this.http.delete('api/getAddress/' + id)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
+        //  return this.http.delete('http://localhost:4112/api/getAddress/' + id).pipe(map(res => res.json()));
+        return this.http.delete('api/getAddress/' + id).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
     }
     // //edit address
     //   //added newly
     putAddress(emp) {
-        return this.http.put('http://localhost:4112/api/updateAddress' + `/${emp._id}`, emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
-        //  return this.http.put('api/getAddress/' + `/${emp._id}`, emp);
+        // return this.http.put('http://localhost:4112/api/updateAddress' + `/${emp._id}`,emp).pipe(map(res => res.json()));
+        return this.http.put('api/updateAddress' + `/${emp._id}`, emp).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(res => res.json()));
     }
 }
 ContactService.ɵfac = function ContactService_Factory(t) { return new (t || ContactService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_http__WEBPACK_IMPORTED_MODULE_3__["Http"])); };
