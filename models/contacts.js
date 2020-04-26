@@ -13,7 +13,7 @@ const addressSchema =new mongoose.Schema({
 FirstName:String,
 LastName:String,
 DOB:String,
-AnniversayDate:String,
+AnniversaryDate:String,
 Address:String,
 Phone:String,
 Email:String
