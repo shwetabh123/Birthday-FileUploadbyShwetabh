@@ -12,7 +12,7 @@ var uploadfileRouter = require('./routes/upload-file');
 app.use(cors());
 //app.use(cors({origin: 'http://localhost:4200'}));
 
-app.use(bodyparser.json()); 
+app.use(bodyparser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
@@ -22,11 +22,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
      res.header("Access-Control-Allow-Origin", "*");
      res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
      next();
-   });
+});
 
 
 //routes
@@ -42,24 +42,24 @@ app.use('/api', uploadfileRouter);
 //var con = require('./connection');
 
 
-if (process.env.NODE_ENV==='production'){
+if (process.env.NODE_ENV === 'production') {
 
 
-     app.use(express.static(path.join(__dirname,'public')));
+     app.use(express.static(path.join(__dirname, 'public')));
 
 
-     app.get('*',(req,res)=>{
+     app.get('*', (req, res) => {
 
-    res.sendFile(path.join(__dirname,'public/index.html'));
+          res.sendFile(path.join(__dirname, 'public/index.html'));
 
 
      });
 
-   //  con='mongodb+srv://test:test@address-kvpmm.mongodb.net/test/address';
-  
-   //   con='mongodb://localhost:27017/address';
-  
-  }
+     //  con='mongodb+srv://test:test@address-kvpmm.mongodb.net/test/address';
+
+     //   con='mongodb://localhost:27017/address';
+
+}
 
 
 //ON HEROKU
